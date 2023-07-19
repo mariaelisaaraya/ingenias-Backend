@@ -64,8 +64,23 @@ Los temas están enfocados en un concepto específico. Aquí están dividos en c
 
 ## 🔸 Proyecto
 
-Durante el curso crearemos un servidor y una API básica paso a paso. La API manejará los métodos HTTP GET, POST, PUT, PATCH, y DELETE.  
-
+Durante el curso vamos a crear un proyecto que a la hora de la Entrega Final debe incluir:
+* Una bb.dd MySQL con el modelo relacional aplicado de acuerdo a la informaciónalmacenada en el archivo trailerflix.json
+  * catalogo (almacenar datos de películas y series)
+  * categorias (serie, película, documental, etc...)
+  * actricesyactores (datos de reparto)
+  * genero (Sci-Fi, Acción, Drama, Terror, Comedia)
+  * tablas intermedias (catalogo_reparto, catalogo_tags, etc...)
+* Una vista SQL que muestre todos los datos relacionados, tal como los representa el archivo .json original.
+* Una API REST desarrollada que acceda a los datos de trailerflix
+  * servidor Express JS
+  * conexión con MySQL
+  * genera, al menos, 3 endpoints
+    * /catalogo (servirá el catálogo completo ‘la vista SQL’)
+    * /catalogo/:nombre (filtrar por nombre o parte del nombre)
+    * /catalogo/:genero (filtrar por género del contenido) y otros endpoint que consideres interesante crear.
+* Documentación en formato MarkDown que explique cómo utilizar cada endpoint creado, que muestre un ejemplo de código, y el listado de endpoints en una tabla
+  
 
 ## 🔹 Cómo Ejecutar tu Código
 
