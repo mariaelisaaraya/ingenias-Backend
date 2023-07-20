@@ -87,7 +87,7 @@ Durante el curso vamos a crear un proyecto que a la hora de la Entrega Final deb
 Durante el curso usaremos Node.js para ejecutar los programas en el terminal. Para ello, usaremos el siguiente comando si el archivo a ejecutar es app.js.
 
 ```
-> node app.js
+> node nombreDelArchivo.js (puede ser app.js o ejemplo.js)
 ```
 
 ## 🔸 Descargar el Código
