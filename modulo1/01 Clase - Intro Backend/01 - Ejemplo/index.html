@@ -7,9 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clase 01 - Ejemplo 01</title>
     <script>
-        var num1 = prompt("Ingresar un numero");   
-        var num2 = prompt("Ingrese otro numero");
-        var suma = num1  -  num2;
+        var num1 = prompt("Ingresar un numero: ");   
+        var num2 = prompt("Ingrese otro numero: ");
+        // Convertir los valores ingresados a números
+        var num1Parsed = parseInt(num1);
+        var num2Parsed = parseInt(num2);
+        // Realizar la suma
+        var suma = num1Parsed + num2Parsed;
         alert("La suma de los numeros es: " + suma);
     </script>
 </head>
