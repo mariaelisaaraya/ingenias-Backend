@@ -1,0 +1,21 @@
+{
+
+  "name": "motor-de-plantillas",
+  "description": "¡Bienvenidas! 👋 Vamos a construir desde cero un proyecto con todo lo visto hasta ahora.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch index.js",
+    "dev":"nodemon index.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "author": "",
+  "license": "ISC"  
+}

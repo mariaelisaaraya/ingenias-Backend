@@ -1,0 +1,14 @@
+<div class="container">
+    <h1><%= title %></h1>
+    <p><%= message %></p>
+   <ul>
+    <% for (let i = 0; i < products.length; i++) {%>
+    <li><%= products[i].name %> -
+    ($ <%= products[i].price %>) </li>
+    <% } %>
+   </ul>
+<a href="/">
+        <button class="button"> Volver a HOME </button>
+    </a>
+</div>
+
