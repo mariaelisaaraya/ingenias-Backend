@@ -66,7 +66,30 @@ app.get('/cursos', (req, res) => {
   }
 })
 
-app.get('/curso/codigo/:id', (req, res) => { })
+app.get('/curso/codigo/:id', (req, res) => {
+  let codigo = parseInt(req.params.id)
+  if (typeof codigo === 'number') {
+    let result = []
+   // cursos.find((curso) => curso.id  === codigo)
+    for (let curso of cursos) {
+      if (curso.id === codigo) {
+        result.push(curso)
+        break
+      }
+    }
+    result.length > 0 ? res.json(result) :
+      res.status(404).json({ id: 'Error', descripcion: 'No se encontraron coincidencias.' })
+  }
+})
+app.get('/curso/codigoid/:id', (req, res) => {
+  let codigo = parseInt(req.params.id)
+  for (let curso of cursos) {
+    if (curso.id === codigo) {
+      res.json(curso)
+    }
+  }
+  res.status(404).json({ id: 'Error', descripcion: 'No se encontraron coincidencias.' })
+})
 
 app.get('/curso/nombre/:nombre', (req, res) => { })
 
