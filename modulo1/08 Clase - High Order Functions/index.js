@@ -1,5 +1,7 @@
 const productos = require('./productos')
-
+// ////////////////////////////////////////////////////////////////
+// // forEach 
+// ////////////////////////////////////////////////////////////////
 productos.forEach(producto => console.table(producto))
 
 const paises = ['Argentina', 'Bolivia', 'Chile', 'Ecuador', 'Paraguay', 'Uruguay']
@@ -7,6 +9,10 @@ paises.forEach(pais => console.log(pais))
 for (let p of paises) {
     console.log(p)
 }
+
+// ////////////////////////////////////////////////////////////////
+// // find 
+// ////////////////////////////////////////////////////////////////
 // array object
 const macbook = productos.find(producto => producto.id === 3)
 if (macbook !== undefined) console.log(macbook)
@@ -25,7 +31,6 @@ console.log(teles)
 console.log("largo  del array de teles", teles.length)
 
 
-
 ////////////////////////////////////////////////////////////////
 // metodos combinados 
 ////////////////////////////////////////////////////////////////
@@ -42,6 +47,9 @@ const resultado2 = productos.filter(p => p.nombre.toLowerCase().includes(palabra
    || p.categoria.toLowerCase() === palabra2.toLowerCase())
 console.log('resultado2',resultado2)
 
+// ////////////////////////////////////////////////////////////////
+// // some 
+// ////////////////////////////////////////////////////////////////
 
 const existeMacbook = productos.some(p => p.nombre.includes('tv'))
 console.log('existeMacbook',existeMacbook)
@@ -85,6 +93,11 @@ const pasarAMayusculaElNombre = () => {
     console.table(resultado)
 }
 pasarAMayusculaElNombre()
+
+// ////////////////////////////////////////////////////////////////
+// // reduce 
+// ////////////////////////////////////////////////////////////////
+
 // 0 + 1 + 2 + 3 + 4
 const initialValue = 0;
 const sumWithInitial = productos.reduce((accumulator, currentValue) => accumulator + currentValue.importe, initialValue);
