@@ -65,6 +65,11 @@ app.get('/cursos', (req, res) => {
       res.json(resultado) : res.json({id:'ERROR', description:req.query.nombre})
   }
 })
+/*
+################################################################################################
+          A PARTIR DE AQUÍ, ESTA EL CÓDIGO CORRESPONDIENTE AL DESAFÍO PROPUESTO
+################################################################################################
+*/
 
 app.get('/curso/codigo/:id', (req, res) => {
   let codigo = parseInt(req.params.id)
@@ -91,8 +96,26 @@ app.get('/curso/codigoid/:id', (req, res) => {
   res.status(404).json({ id: 'Error', descripcion: 'No se encontraron coincidencias.' })
 })
 
-app.get('/curso/nombre/:nombre', (req, res) => { })
+app.get('/curso/nombre/:nombre', (req, res) => { 
+  let parametro = req.params.nombre.trim().toLowerCase()
+  if (parametro !== '') {
+    let result = []
+    for (let curso of cursos) {
+      //includes
+      if (curso.nombre.toLowerCase() === parametro) {
+        result.push(curso)
+      }
+    }
+    result.length > 0 ? res.json(result) :
+      res.status(404).json({ id: 'Error', descripcion: 'No se encontraron coincidencias.' })
+  }
+})
 
+/*
+################################################################################################
+                        FIN DE LA RESOLUCIÓN DE LA ACTIVIDAD PROPUESTA.
+################################################################################################
+*/
 // rutas inexistentes
 app.get("*", (req, res) => { 
     res.status(404).send("Lo siento, pero esta pagina que buscas no existe."); 
