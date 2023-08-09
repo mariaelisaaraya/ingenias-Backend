@@ -75,6 +75,7 @@ app.get('/curso/codigo/:id', (req, res) => {
   let codigo = parseInt(req.params.id)
   if (typeof codigo === 'number') {
     let result = []
+   // cursos.find((curso) => curso.id  === codigo)
     for (let curso of cursos) {
       if (curso.id === codigo) {
         result.push(curso)
