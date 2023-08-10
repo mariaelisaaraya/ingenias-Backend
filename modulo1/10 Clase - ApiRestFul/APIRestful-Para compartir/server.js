@@ -31,7 +31,7 @@ app.get('/frutas/:id', (req, res) => {
     res.send(resultado);
 });
 
-app.post('/frutas', (req, res) => {
+app.post('/', (req, res) => {
   const nuevaFruta = req.body;
         DB.push(nuevaFruta);
         guardarFrutas(DB);
