@@ -36,12 +36,21 @@ app.post('/',(req,res)=>{
     guardarFrutas(DB)
     res.status(201).send("Fruta agregada!")
 })
-// metodo put
+// metodfrutaDesactualiazda, fruta,o put
 app.put('/:id', (req,res)=>{
     const id = parseInt(req.params.id);
     const fruta = req.body;
-    actualizarFruta(id,fruta);
-    res.status(200).send('Fruta actualizada!');
+    let frutaDesactualiazda = DB.find(fruta => fruta.id === id)
+    if (frutaDesactualiazda) {
+        DB[id-1] = fruta
+        guardarFrutas(DB)
+        res.status(200).send('Fruta actualizada!');
+    } else {
+        res.status(404).json({error: `Error en el índice`,
+    descripcion: `No se pudo encontrar un producto con el valor indicado como índice: ${id}`})
+    }
+    //actualizarFruta(id,fruta);
+   
 })
 // metodo delete
 app.delete('/:id', (req,res)=>{
