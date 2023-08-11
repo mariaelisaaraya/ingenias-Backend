@@ -22,21 +22,6 @@ function obtenerFrutaFind(id){
     return fruta
 }
 
-function actualizarFruta(id, actualizadafruta){
-    const lista = leerFrutas()
-    fs.readFile(__dirname + process.env.DATABASE_PATH, 'utf8', (err, data) => {
-      lista[id]=actualizadafruta
-      guardarFrutas(lista)
-    })
-}
-
-function eliminarFruta(id){
-    fs.readFile(__dirname + process.env.DATABASE_PATH, 'utf8', (err, data) => {
-    let lista = JSON.parse(data).filter(fruta => fruta.id !== id)
-    guardarFrutas(lista)
-    })
-}
-
 // function obtenerFrutaFilter(id){
 //     DB = leerFrutas()
 //     const fruta = DB.filter(f => f.id === id) 
@@ -47,4 +32,4 @@ function eliminarFruta(id){
 //     return fruta
 // }
 
-module.exports = {leerFrutas, guardarFrutas, obtenerFrutaFind,actualizarFruta, eliminarFruta}
+module.exports = {leerFrutas, guardarFrutas, obtenerFrutaFind}

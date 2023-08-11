@@ -2,7 +2,7 @@ const dotenv = require('dotenv');
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-const { leerFrutas,guardarFrutas,  obtenerFrutaFind,actualizarFruta, eliminarFruta } = require('./src/frutas.manager')
+const { leerFrutas,guardarFrutas,  obtenerFrutaFind } = require('./src/frutas.manager')
 const PORT = process.env.PORT || 3000;
 let DB = [];
 //MIDDLEWARE 
@@ -50,12 +50,12 @@ app.put('/:id', (req,res)=>{
     descripcion: `No se pudo encontrar un producto con el valor indicado como índice: ${id}`})
     }
     //actualizarFruta(id,fruta);
-   
 })
 // metodo delete
 app.delete('/:id', (req,res)=>{
     const id = parseInt(req.params.id);
-    eliminarFruta(id);
+    DB.splice(id - 1, 1);
+    guardarFrutas(DB)
     res.status(200).send('Fruta eliminada!');
 })
 
