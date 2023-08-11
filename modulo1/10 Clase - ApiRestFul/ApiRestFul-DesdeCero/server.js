@@ -2,7 +2,7 @@ const dotenv = require('dotenv');
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-const { leerFrutas,guardarFrutas,  obtenerFrutaFind,actualizarFruta, eliminarFruta } = require('./src/frutas.manager')
+const { leerFrutas,guardarFrutas,  obtenerFrutaFind } = require('./src/frutas.manager')
 const PORT = process.env.PORT || 3000;
 let DB = [];
 //MIDDLEWARE 
@@ -36,17 +36,26 @@ app.post('/',(req,res)=>{
     guardarFrutas(DB)
     res.status(201).send("Fruta agregada!")
 })
-// metodo put
+// metodfrutaDesactualiazda, fruta,o put
 app.put('/:id', (req,res)=>{
     const id = parseInt(req.params.id);
     const fruta = req.body;
-    actualizarFruta(id,fruta);
-    res.status(200).send('Fruta actualizada!');
+    let frutaDesactualiazda = DB.find(fruta => fruta.id === id)
+    if (frutaDesactualiazda) {
+        DB[id-1] = fruta
+        guardarFrutas(DB)
+        res.status(200).send('Fruta actualizada!');
+    } else {
+        res.status(404).json({error: `Error en el índice`,
+    descripcion: `No se pudo encontrar un producto con el valor indicado como índice: ${id}`})
+    }
+    //actualizarFruta(id,fruta);
 })
 // metodo delete
 app.delete('/:id', (req,res)=>{
     const id = parseInt(req.params.id);
-    eliminarFruta(id);
+    DB.splice(id - 1, 1);
+    guardarFrutas(DB)
     res.status(200).send('Fruta eliminada!');
 })
 
