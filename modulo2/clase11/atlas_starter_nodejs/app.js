@@ -11,6 +11,8 @@ async function run() {
   const uri =
     "mongodb+srv://<user>:<password>@<cluster-url>?retryWrites=true&w=majority";
   
+  
+  
   // The MongoClient is the object that references the connection to our
   // datastore (Atlas, for example)
   const client = new MongoClient(uri);
