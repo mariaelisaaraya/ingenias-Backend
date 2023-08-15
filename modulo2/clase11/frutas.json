@@ -1,0 +1,121 @@
+[
+    {
+        "id": 1,
+        "imagen": "🍌",
+        "nombre": "Bananas",
+        "importe": 220,
+        "stock": 50
+    },
+    {
+        "id": 2,
+        "imagen": "🍎",
+        "nombre": "Manzanas",
+        "importe": 270,
+        "stock": 50
+    },
+    {
+        "id": 3,
+        "imagen": "🥝",
+        "nombre": "Kiwis",
+        "importe": 280,
+        "stock": 50
+    },
+    {
+        "id": 4,
+        "imagen": "🍈",
+        "nombre": "Melón",
+        "importe": 350,
+        "stock": 50
+    },
+    {
+        "id": 5,
+        "imagen": "🍍",
+        "nombre": "Piñas",
+        "importe": 320,
+        "stock": 50
+    },
+    {
+        "id": 6,
+        "imagen": "🍅",
+        "nombre": "Tomates",
+        "importe": 140,
+        "stock": 50
+    },
+    {
+        "id": 7,
+        "imagen": "🥥",
+        "nombre": "Cocos",
+        "importe": 270,
+        "stock": 50
+    },
+    {
+        "id": 8,
+        "imagen": "🍉",
+        "nombre": "Sandias",
+        "importe": 200,
+        "stock": 50
+    },
+    {
+        "id": 9,
+        "imagen": "🍑",
+        "nombre": "Duraznos",
+        "importe": 310,
+        "stock": 50
+    },
+    {
+        "id": 10,
+        "imagen": "🫐",
+        "nombre": "Arandanos",
+        "importe": 650,
+        "stock": 50
+    },
+    {
+        "id": 11,
+        "imagen": "🥭",
+        "nombre": "Mango",
+        "importe": 290,
+        "stock": 50
+    },
+    {
+        "id": 12,
+        "imagen": "🍇",
+        "nombre": "Uvas",
+        "importe": 700,
+        "stock": 50
+    },
+    {
+        "id": 13,
+        "imagen": "🍐",
+        "nombre": "Peras",
+        "importe": 320,
+        "stock": 50
+    },
+    {
+        "id": 14,
+        "imagen": "🍒",
+        "nombre": "Cerezas",
+        "importe": 1100,
+        "stock": 50
+    },
+    {
+        "id": 15,
+        "imagen": "🍓",
+        "nombre": "Frutillas",
+        "importe": 600,
+        "stock": 50
+    },
+    {
+        "id": 16,
+        "imagen": "🍋",
+        "nombre": "Limones",
+        "importe": 260,
+        "stock": 50
+    },
+    {
+        "id": 17,
+        "imagen": "🍎",
+        "nombre": "Manzana Mcintosh",
+        "importe": 570,
+        "stock": 220
+    }
+]
