@@ -60,7 +60,8 @@ app.get('/frutas/precio/:precio', async (req, res) => {
         res.status(500).send('Error al conectarse a MongoDB')
         return;
     }
-    const db = client.db('frutas')
+    const db = client.db('frutas') 
+    // gte: mayor o igual a
     const frutas = await db.collection('frutas').find({ importe: { $gte: precioFruta } }).toArray()
     await disconnectToMongodb()
     frutas.length == 0 ? res.status(404).send('No encontre la fruta con el precio '+ precioFruta): res.json(frutas)
