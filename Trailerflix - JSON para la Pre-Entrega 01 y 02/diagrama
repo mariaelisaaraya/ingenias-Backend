@@ -1,5 +1,5 @@
 ```mermaid
-flowchart TD
+graph TD
   A[Inicio] --> B[Crear servidor Express]
   B --> C[Configurar puerto y middleware]
   C --> D[Leer archivo JSON]
