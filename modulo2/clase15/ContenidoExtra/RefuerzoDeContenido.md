@@ -1,7 +1,10 @@
+### encryption
 https://preyproject.com/es/blog/tipos-de-cifrado-simetrico-o-asimetrico-rsa-o-aes
 
 https://www.boxcryptor.com/es/encryption/ 
 
+### JSON WEB TOKEN
+https://jwt.io/
 # Cifrado simentrico
 ![Cifrado simentrico](../ContenidoExtra/cifrado%20simetrico.png)
 ## Clave secreta
