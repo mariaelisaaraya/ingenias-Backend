@@ -1,0 +1,27 @@
+{
+  "name": "json-web-token",
+  "version": "1.0.0",
+  "description": "Ejemplo funcional de JWT",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js --watch",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "JWT",
+    "JSON",
+    "Web",
+    "Token",
+    "Express",
+    "Node.js"
+  ],
+  "author": "Jumpedu.org",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "nodemon": "^2.0.22"
+  }
+}

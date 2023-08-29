@@ -1,0 +1,8 @@
+Se debe crear un archivo .env, con los siguientes datos:
+La clave definida se puede cambiar por la que sea.
+SECRET_KEY=miClaveSecretaQueNadieSabra
+PORT=3008
+
+Se deben instalar todas las dependencias necesarias, ejecutando:
+
+/> npm install
