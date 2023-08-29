@@ -30,6 +30,10 @@ app.get('/', (req, res, next) => {
 app.post('/login', (req, res) => {
     const username = req.body.username
     const password = req.body.password
+    const textoCodificado = Buffer.from(password).toString('base64');
+    console.log("textoCodificado",textoCodificado)
+    const textoDecodificado = Buffer.from(textoCodificado, 'base64').toString('ascii')
+    console.log("textoDecodificado",textoDecodificado)
     console.log(`Datos recibidos: Usuario: ${username}, Password: ${password}`)
 
     if (username === "Cameron" && password === "H@lt4ndC4tchFire") {
