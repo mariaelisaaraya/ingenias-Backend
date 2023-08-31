@@ -57,9 +57,12 @@ ___formato negrita y cursiva___
 ## Links 
 https://campus.educalabs.org/
 
+
 [Link del campus](https://campus.educalabs.org/)
 
 <https://stackedit.io/>
+
+
 
 [JSCONFIG VSCODE](https://code.visualstudio.com/docs/nodejs/working-with-javascript#_type-checking-javascript
 )
@@ -75,3 +78,27 @@ https://campus.educalabs.org/
 'Alguien puede pensar en la documentacion')
 
 ![Error](./img/junior.jpeg)
+
+
+## Codigo
+opcion 1 
+
+    frutas.forEach(fruta => console.log(fruta));
+
+opcion 2 
+```
+frutas.forEach(fruta => console.log(fruta));
+```
+
+```javascript
+{
+    "id":1,
+    "imagen":"🍌",
+    "nombre":"Bananas",
+    "importe":300,
+    "stock":50
+}
+// es un ejemplo de la estructura del json frutas
+```
+
+[Tecnologia](https://github.com/mariaelisaaraya/ingenias-Backend/blob/clase16/modulo2/clase16/contenido.md#technologies)
