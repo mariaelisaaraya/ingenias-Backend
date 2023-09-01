@@ -102,3 +102,26 @@ frutas.forEach(fruta => console.log(fruta));
 ```
 
 [Tecnologia](https://github.com/mariaelisaaraya/ingenias-Backend/blob/clase16/modulo2/clase16/contenido.md#technologies)
+
+## graficos 
+
+```mermaid
+graph LR
+    fa:fa-check-->fa:fa-coffee
+```
+
+::: mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+:::
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
