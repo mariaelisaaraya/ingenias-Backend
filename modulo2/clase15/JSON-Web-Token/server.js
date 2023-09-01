@@ -8,7 +8,7 @@ const userToValidate = {username: "Cameron", password: "H@lt4ndC4tchFire"};
 
 // MIDLEWARES UTILIZADOS EN LA APLICACIÓN BACKEND
 app.use(express.json());
-// function verifyToken Verificar el token en las solicitudes protegidas
+//  Verificar el token 
 function verifyToken(req, res, next) {
     const token = req.headers['authorization'] || null
     if (token) {

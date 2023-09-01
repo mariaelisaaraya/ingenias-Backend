@@ -6,3 +6,7 @@ PORT=3008
 Se deben instalar todas las dependencias necesarias, ejecutando:
 
 /> npm install
+
+https://bushansirgur.in/nodejs-express-mongoose-and-mongodb-restful-web-service-patch-request/
+
+https://stackoverflow.com/questions/28839823/patch-method-to-mongodb-using-node
