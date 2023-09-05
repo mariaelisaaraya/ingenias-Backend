@@ -1,0 +1,182 @@
+[
+    {
+      "codigo": 1,
+      "nombre": "Desktop Gaming",
+      "precio": 999.99,
+      "categoria": "Desktop"
+    },
+    {
+      "codigo": 2,
+      "nombre": "Laptop Ultrabook",
+      "precio": 1299.99,
+      "categoria": "Portátiles"
+    },
+    {
+      "codigo": 3,
+      "nombre": "Teclado Mecánico",
+      "precio": 89.99,
+      "categoria": "Accesorios"
+    },
+    {
+      "codigo": 4,
+      "nombre": "Impresora Multifuncional",
+      "precio": 199.99,
+      "categoria": "Impresoras"
+    },
+    {
+      "codigo": 5,
+      "nombre": "Memoria RAM",
+      "precio": 79.99,
+      "categoria": "Partes de computadoras"
+    },
+    {
+      "codigo": 6,
+      "nombre": "Monitor Curvo",
+      "precio": 299.99,
+      "categoria": "Monitores"
+    },
+    {
+      "codigo": 7,
+      "nombre": "Mouse Inalámbrico",
+      "precio": 29.99,
+      "categoria": "Accesorios"
+    },
+    {
+      "codigo": 8,
+      "nombre": "Disco Duro Externo",
+      "precio": 99.99,
+      "categoria": "Accesorios"
+    },
+    {
+      "codigo": 9,
+      "nombre": "Tarjeta de Video",
+      "precio": 249.99,
+      "categoria": "Partes de computadoras"
+    },
+    {
+      "codigo": 10,
+      "nombre": "Tableta Gráfica",
+      "precio": 199.99,
+      "categoria": "Accesorios"
+    },
+    {
+      "codigo": 11,
+      "nombre": "All-in-One PC",
+      "precio": 899.99,
+      "categoria": "Desktop"
+    },
+    {
+      "codigo": 12,
+      "nombre": "Laptop Convertible",
+      "precio": 799.99,
+      "categoria": "Portátiles"
+    },
+    {
+      "codigo": 13,
+      "nombre": "Mouse Ergonómico",
+      "precio": 39.99,
+      "categoria": "Accesorios"
+    },
+    {
+      "codigo": 14,
+      "nombre": "Impresora de Etiquetas",
+      "precio": 149.99,
+      "categoria": "Impresoras"
+    },
+    {
+      "codigo": 15,
+      "nombre": "Disco SSD",
+      "precio": 129.99,
+      "categoria": "Partes de computadoras"
+    },
+    {
+      "codigo": 16,
+      "nombre": "Monitor 4K",
+      "precio": 499.99,
+      "categoria": "Monitores"
+    },
+    {
+      "codigo": 17,
+      "nombre": "Webcam Full HD",
+      "precio": 69.99,
+      "categoria": "Accesorios"
+    },
+    {
+      "codigo": 18,
+      "nombre": "Router Gigabit",
+      "precio": 79.99,
+      "categoria": "Accesorios"
+    },
+    {
+      "codigo": 19,
+      "nombre": "Tarjeta de Red Ethernet",
+      "precio": 19.99,
+      "categoria": "Partes de computadoras"
+    },
+    {
+      "codigo": 20,
+      "nombre": "Teclado Retroiluminado",
+      "precio": 59.99,
+      "categoria": "Accesorios"
+    },
+    {
+      "codigo": 21,
+      "nombre": "Desktop Todo en Uno",
+      "precio": 699.99,
+      "categoria": "Desktop"
+    },
+    {
+      "codigo": 22,
+      "nombre": "Laptop Gamer",
+      "precio": 1499.99,
+      "categoria": "Portátiles"
+    },
+    {
+      "codigo": 23,
+      "nombre": "Altavoces 2.1",
+      "precio": 89.99,
+      "categoria": "Accesorios"
+    },
+    {
+      "codigo": 24,
+      "nombre": "Impresora Láser",
+      "precio": 299.99,
+      "categoria": "Impresoras"
+    },
+    {
+      "codigo": 25,
+      "nombre": "Fuente de Alimentación",
+      "precio": 129.99,
+      "categoria": "Partes de computadoras"
+    },
+    {
+      "codigo": 26,
+      "nombre": "Monitor Ultrawide",
+      "precio": 599.99,
+      "categoria": "Monitores"
+    },
+    {
+      "codigo": 27,
+      "nombre": "Cámara Web",
+      "precio": 49.99,
+      "categoria": "Accesorios"
+    },
+    {
+      "codigo": 28,
+      "nombre": "Router Mesh",
+      "precio": 129.99,
+      "categoria": "Accesorios"
+    },
+    {
+      "codigo": 29,
+      "nombre": "Tarjeta de Sonido",
+      "precio": 49.99,
+      "categoria": "Partes de computadoras"
+    },
+    {
+      "codigo": 30,
+      "nombre": "Teclado Inalámbrico",
+      "precio": 39.99,
+      "categoria": "Accesorios"
+    }
+]  

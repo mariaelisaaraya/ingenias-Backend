@@ -1,0 +1,254 @@
+[
+    {
+      "codigo": 1234,
+      "nombre": "Arroz",
+      "precio": 5.99,
+      "categoria": "Comestible"
+    },
+    {
+      "codigo": 5678,
+      "nombre": "Azúcar",
+      "precio": 3.49,
+      "categoria": "Comestible"
+    },
+    {
+      "codigo": 9012,
+      "nombre": "Detergente",
+      "precio": 8.75,
+      "categoria": "Limpieza"
+    },
+    {
+      "codigo": 2456,
+      "nombre": "Café",
+      "precio": 9.99,
+      "categoria": "Infusiones"
+    },
+    {
+      "codigo": 7891,
+      "nombre": "Leche",
+      "precio": 2.99,
+      "categoria": "Lácteos"
+    },
+    {
+      "codigo": 2345,
+      "nombre": "Harina",
+      "precio": 4.25,
+      "categoria": "Comestible"
+    },
+    {
+      "codigo": 6789,
+      "nombre": "Jabón de manos",
+      "precio": 2.49,
+      "categoria": "Limpieza"
+    },
+    {
+      "codigo": 4221,
+      "nombre": "Galletas",
+      "precio": 1.99,
+      "categoria": "Comestible"
+    },
+    {
+      "codigo": 8365,
+      "nombre": "Cepillo de dientes",
+      "precio": 3.99,
+      "categoria": "Higiene personal"
+    },
+    {
+      "codigo": 1498,
+      "nombre": "Papel higiénico",
+      "precio": 6.49,
+      "categoria": "Limpieza"
+    },
+    {
+      "codigo": 5674,
+      "nombre": "Aceite de oliva",
+      "precio": 7.99,
+      "categoria": "Comestible"
+    },
+    {
+      "codigo": 9087,
+      "nombre": "Té",
+      "precio": 2.99,
+      "categoria": "Infusiones"
+    },
+    {
+      "codigo": 3456,
+      "nombre": "Mantequilla",
+      "precio": 3.99,
+      "categoria": "Lácteos"
+    },
+    {
+      "codigo": 7890,
+      "nombre": "Pasta dental",
+      "precio": 2.99,
+      "categoria": "Higiene personal"
+    },
+    {
+      "codigo": 6533,
+      "nombre": "Champú",
+      "precio": 5.99,
+      "categoria": "Higiene personal"
+    },
+    {
+      "codigo": 2149,
+      "nombre": "Tomate enlatado",
+      "precio": 1.99,
+      "categoria": "Conservas"
+    },
+    {
+      "codigo": 8745,
+      "nombre": "Manzanas",
+      "precio": 3.99,
+      "categoria": "Frutas"
+    },
+    {
+      "codigo": 1828,
+      "nombre": "Papel de aluminio",
+      "precio": 2.49,
+      "categoria": "Utensilios de cocina"
+    },
+    {
+      "codigo": 5032,
+      "nombre": "Pan",
+      "precio": 2.49,
+      "categoria": "Panadería"
+    },
+    {
+      "codigo": 9876,
+      "nombre": "Cereal",
+      "precio": 4.99,
+      "categoria": "Comestible"
+    },
+    {
+      "codigo": 2129,
+      "nombre": "Mantequilla de maní",
+      "precio": 3.99,
+      "categoria": "Comestible"
+    },
+    {
+      "codigo": 6523,
+      "nombre": "Pasta",
+      "precio": 1.99,
+      "categoria": "Comestible"
+    },
+    {
+      "codigo": 5987,
+      "nombre": "Zanahorias",
+      "precio": 1.49,
+      "categoria": "Verduras"
+    },
+    {
+      "codigo": 4921,
+      "nombre": "Jabón para la ropa",
+      "precio": 6.99,
+      "categoria": "Limpieza"
+    },
+    {
+      "codigo": 7254,
+      "nombre": "Yogur",
+      "precio": 2.99,
+      "categoria": "Lácteos"
+    },
+    {
+      "codigo": 1898,
+      "nombre": "Cebolla",
+      "precio": 0.99,
+      "categoria": "Verduras"
+    },
+    {
+      "codigo": 5232,
+      "nombre": "Queso",
+      "precio": 4.99,
+      "categoria": "Lácteos"
+    },
+    {
+      "codigo": 8665,
+      "nombre": "Cerveza",
+      "precio": 3.49,
+      "categoria": "Bebidas"
+    },
+    {
+      "codigo": 2139,
+      "nombre": "Lentejas",
+      "precio": 2.49,
+      "categoria": "Legumbres"
+    },
+    {
+      "codigo": 6943,
+      "nombre": "Papel de cocina",
+      "precio": 1.99,
+      "categoria": "Limpieza"
+    },
+    {
+      "codigo": 1937,
+      "nombre": "Patatas",
+      "precio": 1.49,
+      "categoria": "Verduras"
+    },
+    {
+      "codigo": 4821,
+      "nombre": "Agua mineral",
+      "precio": 0.99,
+      "categoria": "Bebidas"
+    },
+    {
+      "codigo": 7634,
+      "nombre": "Chocolate",
+      "precio": 2.99,
+      "categoria": "Comestible"
+    },
+    {
+      "codigo": 1098,
+      "nombre": "Limones",
+      "precio": 1.99,
+      "categoria": "Frutas"
+    },
+    {
+      "codigo": 5432,
+      "nombre": "Cafetera",
+      "precio": 29.99,
+      "categoria": "Electrodomésticos"
+    },
+    {
+      "codigo": 8765,
+      "nombre": "Toallitas desinfectantes",
+      "precio": 3.99,
+      "categoria": "Limpieza"
+    },
+    {
+      "codigo": 2109,
+      "nombre": "Naranjas",
+      "precio": 2.99,
+      "categoria": "Frutas"
+    },
+    {
+      "codigo": 6543,
+      "nombre": "Pimienta",
+      "precio": 1.99,
+      "categoria": "Especias"
+    },
+    {
+      "codigo": 1987,
+      "nombre": "Queso rallado",
+      "precio": 2.49,
+      "categoria": "Lácteos"
+    },
+    {
+      "codigo": 4321,
+      "nombre": "Cepillo de limpieza",
+      "precio": 1.99,
+      "categoria": "Limpieza"
+    },
+    {
+      "codigo": 7654,
+      "nombre": "Galletas saladas",
+      "precio": 1.99,
+      "categoria": "Comestible"
+    },
+    {
+      "codigo": 1198,
+      "nombre": "Maní",
+      "precio": 2.99,
+      "categoria": "Frutos secos"
+    }
+]

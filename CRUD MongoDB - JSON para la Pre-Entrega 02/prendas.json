@@ -1,0 +1,182 @@
+[
+    {
+      "codigo": 1,
+      "nombre": "Jeans Denim",
+      "precio": 59.99,
+      "categoria": "Jeans"
+    },
+    {
+      "codigo": 2,
+      "nombre": "Remera Algodón",
+      "precio": 19.99,
+      "categoria": "Remeras"
+    },
+    {
+      "codigo": 3,
+      "nombre": "Camisa Manga Larga",
+      "precio": 34.99,
+      "categoria": "Camisas"
+    },
+    {
+      "codigo": 4,
+      "nombre": "Vestido de Gala",
+      "precio": 129.99,
+      "categoria": "De gala"
+    },
+    {
+      "codigo": 5,
+      "nombre": "Pantalón de Vestir",
+      "precio": 49.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 6,
+      "nombre": "Blusa Estampada",
+      "precio": 24.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 7,
+      "nombre": "Camiseta Deportiva",
+      "precio": 14.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 8,
+      "nombre": "Chaqueta Cuero",
+      "precio": 89.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 9,
+      "nombre": "Sudadera con Capucha",
+      "precio": 39.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 10,
+      "nombre": "Pantalón Corto Deportivo",
+      "precio": 29.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 11,
+      "nombre": "Blazer Rayas",
+      "precio": 74.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 12,
+      "nombre": "Falda Plisada",
+      "precio": 44.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 13,
+      "nombre": "Vestido Floral",
+      "precio": 64.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 14,
+      "nombre": "Shorts Vaqueros",
+      "precio": 29.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 15,
+      "nombre": "Blusa de Seda",
+      "precio": 54.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 16,
+      "nombre": "Pantalón Palazzo",
+      "precio": 49.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 17,
+      "nombre": "Vestido Largo",
+      "precio": 79.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 18,
+      "nombre": "Blusa de Encaje",
+      "precio": 39.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 19,
+      "nombre": "Camiseta Gráfica",
+      "precio": 19.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 20,
+      "nombre": "Saco Tejido",
+      "precio": 64.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 21,
+      "nombre": "Jeans Skinny",
+      "precio": 54.99,
+      "categoria": "Jeans"
+    },
+    {
+      "codigo": 22,
+      "nombre": "Vestido de Encaje",
+      "precio": 94.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 23,
+      "nombre": "Pantalón Cargo",
+      "precio": 39.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 24,
+      "nombre": "Chaleco de Mezclilla",
+      "precio": 49.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 25,
+      "nombre": "Blusa Manga Larga",
+      "precio": 29.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 26,
+      "nombre": "Falda Midi",
+      "precio": 44.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 27,
+      "nombre": "Pantalón Jogger",
+      "precio": 34.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 28,
+      "nombre": "Vestido de Punto",
+      "precio": 49.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 29,
+      "nombre": "Shorts de Mezclilla",
+      "precio": 29.99,
+      "categoria": "Outfit"
+    },
+    {
+      "codigo": 30,
+      "nombre": "Blusa Asimétrica",
+      "precio": 34.99,
+      "categoria": "Outfit"
+    }
+]  
