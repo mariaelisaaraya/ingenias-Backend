@@ -5,3 +5,8 @@
 - https://www.browserstack.com/guide/unit-testing-for-nodejs-using-jest
 - https://blog.logrocket.com/node-js-express-test-driven-development-jest/
 - https://github.com/learning-zone/javascript-unit-testing/tree/master
+
+[jest](https://github.com/jestjs/jest)
+[mocha](https://github.com/mochajs/mocha)
+[chai](https://github.com/chaijs/chai)
+[supertest](https://github.com/ladjs/supertest)
