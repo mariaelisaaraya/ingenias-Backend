@@ -8,4 +8,6 @@
 - [jest](https://github.com/jestjs/jest)
 - [mocha](https://github.com/mochajs/mocha)
 - [chai](https://github.com/chaijs/chai)
-- [supertest](https://github.com/ladjs/supertest)
+- [supertest1](https://github.com/ladjs/supertest)
+- [supertest2](https://github.com/mfaisalkhatri/SuperTest_poc)
+- [istanbul](https://github.com/istanbuljs)
