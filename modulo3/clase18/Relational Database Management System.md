@@ -20,5 +20,3 @@ Aquí tienes algunos enlaces útiles para obtener más información sobre RDBMS:
 2. Documentación oficial de Oracle Database: https://docs.oracle.com/en/database/
 3. Documentación oficial de Microsoft SQL Server: https://docs.microsoft.com/en-us/sql/
 4. Documentación oficial de PostgreSQL: https://www.postgresql.org/docs/
-
-Si tienes alguna pregunta específica relacionada con el código, por favor proporciona más detalles y estaré encantado de ayudarte.
