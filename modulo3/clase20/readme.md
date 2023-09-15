@@ -1,4 +1,4 @@
-
+[Aprender jugando](https://github.com/NUKnightLab/sql-mysteries/tree/master)
 # Como lee sql una query?
 La orden de prioridad al leer una query SQL se refiere al orden en el que se evalúan las diferentes cláusulas y operaciones en una consulta SQL. Aunque puede variar ligeramente dependiendo del motor de base de datos, generalmente sigue el siguiente orden:
 
