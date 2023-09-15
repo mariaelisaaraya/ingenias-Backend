@@ -1,4 +1,6 @@
 [ Data Types](https://dev.mysql.com/doc/refman/8.0/en/data-types.html)
+
+
 # QUE ES MYSQL 
 MySQL es un sistema de gestión de bases de datos relacional, es decir, es un software que permite organizar y almacenar grandes cantidades de información de manera estructurada.
 
