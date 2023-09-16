@@ -10,7 +10,7 @@ Para interactuar con MySQL, se utiliza un lenguaje de consulta llamado SQL (Stru
 
 MySQL también permite establecer relaciones entre tablas mediante el uso de claves primarias y claves foráneas. Esto facilita la organización y la integridad de los datos, ya que se pueden establecer reglas para mantener la coherencia de la información.
 
-Además, MySQL es un sistema multiusuario, lo que significa que múltiples usuarios pueden acceder y manipular la base de datos al mismo tiempo. Cada usuario puede tener diferentes niveles de acceso y privilegios, lo que garantiza la seguridad y la protección de la información.
+Además, MySQL es un sistema multiusuario, lo que significa que múltiples personas usuarias pueden acceder y manipular la base de datos al mismo tiempo. Cada persona usuaria puede tener diferentes niveles de acceso y privilegios, lo que garantiza la seguridad y la protección de la información.
 
 En resumen, MySQL es un sistema de gestión de bases de datos relacional que utiliza tablas para organizar la información. Trabaja mediante el uso de SQL y permite realizar operaciones como crear, modificar y eliminar tablas, insertar, actualizar y eliminar registros, y realizar consultas. También permite establecer relaciones entre tablas y es multiusuario para garantizar la seguridad de los datos.
 
