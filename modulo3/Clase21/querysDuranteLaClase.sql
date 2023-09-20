@@ -1,4 +1,3 @@
-
 SELECT * FROM `Categories` WHERE `CategoryID` =4;
 SELECT * FROM `Categories` WHERE `CategoryID` ='4';
 SELECT * FROM `Categories` WHERE `CategoryName`= 'Condiments';
