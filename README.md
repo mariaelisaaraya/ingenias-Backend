@@ -93,11 +93,11 @@ Durante el curso usaremos Node.js para ejecutar los programas en el terminal. Pa
 ## 🔸 Descargar el Código
 Se puede descargar el código de cada parte del curso desde este repositorio. 
 
-## 🔹  Entregas:
+## 🔹  Entrega:[EntregaDelTrabajo](https://forms.gle/C6CWo5dvnAHr4Rx8A) 
 
 Durante el transcurso del curso, estaremos trabajando en GitHub, donde tanto la profesora como la tutora estarán siguiendo de cerca el progreso de los proyectos. Es importante tener en cuenta que para la Entrega Final, se aplicará el siguiente plazo:
 
-  *  Pre Entrega 2: La última actualización del código debe realizarse antes de las **8 am del domingo 24/09**. A esa hora, se tomará una instantánea del proyecto en GitHub para su evaluación.
+  *  Pre Entrega 2: Se debe completar el fomulario antes **8 am del domingo 24/09**. A esa hora, se tomará una instantánea del proyecto en GitHub para su evaluación. Lo debe entregar una sola persona del grupo.
 
 Por favor, hay que asegurarse de que cualquier cambio necesario en su proyecto esté reflejado en GitHub antes de ese momento. Se les comparte un link de forms para realizar la entrega a través del Campus.
    
