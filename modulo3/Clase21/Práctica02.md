@@ -29,7 +29,7 @@ registros al azar. Recuerda aplicar / guardar los cambios efectuados
 
 
     -   Practica02-1y2.sql -> Anto
-    -   Practica02-1y2.sql -> Jesi
-    -   Practica02-1y2.sql -> Celeste
+    -   Practica02-3y4.sql -> Jesi
+    -   Practica02-5y6.sql -> Celeste
 
 - Realizar pull request a master
