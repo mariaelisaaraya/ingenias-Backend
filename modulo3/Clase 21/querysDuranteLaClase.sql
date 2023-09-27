@@ -45,4 +45,4 @@ WHERE
 
 -- alterar la tabla sumando una columna
 UPDATE `northwind`.`products` SET `Discontinued` = '1' WHERE (`ProductID` = '2');
-o UPDATE `northwind`.`products` SET `Discontinued` = '1' WHERE UnitPrice <18;
+o UPDATE `northwind`.`products` SET `Discontinued` = '1' WHERE UnitPrice <18; 
