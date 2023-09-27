@@ -1,0 +1,8 @@
+/*Punto 1 */
+SELECT * FROM northwind.products 
+ORDER BY productName;
+
+/*Punto 2 */
+SELECT * FROM northwind.products 
+WHERE CategoryID = 4 OR CategoryID = 6
+ORDER BY productName;
