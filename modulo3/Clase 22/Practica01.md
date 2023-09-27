@@ -1,6 +1,6 @@
 Prácticas 01 - Clase 22 - Pag 35
 
--   1. EEjecuta una consulta de selección sobre los siguientes campos de la tabla Products:
+-   1. Ejecuta una consulta de selección sobre los siguientes campos de la tabla Products:
         -   productID, productName, QuantityPerUnit, UnitPrice
         -   aplica un alias a cada uno de ellos (Codigo, Descripcion, Presentacion, PrecioUnitario)
 
