@@ -1,4 +1,5 @@
-USE <database_name_to_use>;
+CREATE database agenda;
+USE agenda;
 
 CREATE TABLE CONTACTOS (
 	Id 				INTEGER PRIMARY KEY auto_increment,
