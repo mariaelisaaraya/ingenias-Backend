@@ -18,8 +18,9 @@ Utilizando el archivo JSON `Trailerflix - JSON/trailerflix.json`,
   "trailer": "https://www.youtube.com/embed/aOC8E8z_ifw"
 }
 
+```
 
-diseñar un modelo relacional de base de datos (bb.dd) que cumpla con los siguientes criterios:
+Diseñar un modelo relacional de base de datos (bb.dd) que cumpla con los siguientes criterios:
 
 - La base de datos debe tener al menos 4 tablas relacionales.
 - Deben migrarse los datos del archivo JSON a la base de datos, considerando las entidades "cartelera/catalogo", "actores", "categorias", "genero", "tags" y "reparto".
