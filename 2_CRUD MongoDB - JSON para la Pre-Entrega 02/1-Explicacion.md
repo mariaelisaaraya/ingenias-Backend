@@ -18,7 +18,7 @@ Pre Entrega 02: Desarrollar una API RESTful utilizando MongoDB como base de dato
 
 ### Entrega del Trabajo:
 -   1-Subir el proyecto al repositorio GitHub de grupo.
--   2-Asegurar que el trabajo esté claramente documentado y organizado.
-3-Enviar el enlace del repositorio a través del campus virtual.
+-   2-Asegurar que el trabajo esté claramente documentado, organizado y con el nombre de todas las integrantes.
+-   3-Enviar el enlace del repositorio a través de un link que va a estar habilitado el fin de semana de la entrega
 
 ### Fecha de Entrega: Domingo, 24 de septiembre, a las 8:00 AM.

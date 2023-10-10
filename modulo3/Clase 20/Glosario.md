@@ -32,11 +32,9 @@ Ejemplo de código:
 
 Aquí tienes algunos enlaces que puedes consultar para obtener más información sobre SQL DML:
 
-W3Schools: https://www.w3schools.com/sql/sql_dml.asp
-Tutorialspoint: https://www.tutorialspoint.com/sql/sql-data-manipulation.htm
-Microsoft SQL Server Documentation: https://docs.microsoft.com/en-us/sql/t-sql/data-manipulation/data-manipulation-language-dml-statements?view=sql-server-ver15
-Recuerda que el código puede variar dependiendo del sistema de gestión de bases de datos que estés utilizando.
-
+W3Schools: [https://www.w3schools.com/sql](https://www.w3schools.com/sql/)
+Tutorialspoint: [https://www.tutorialspoint.com/sql/sql-data-manipulation.htm](https://www.tutorialspoint.com/sql/index.htm)
+Microsoft SQL Server Documentation: [https://docs.microsoft.com/en-us/sql/t-sql/data-manipulation/data-manipulation-language-dml-statements?view=sql-server-ver15](https://learn.microsoft.com/en-us/sql/t-sql/language-reference?view=sql-server-ver16)
 
 # SQL DDL (Data Control Language)
 DDL (Lenguaje de Definición de Datos) es un subconjunto de SQL (Structured Query Language) utilizado para definir y gestionar la estructura de una base de datos. Las declaraciones DDL se utilizan para crear, alterar y eliminar objetos de base de datos como tablas, vistas, índices y esquemas.
