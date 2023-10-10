@@ -16,6 +16,10 @@ WHERE UnitPrice = (SELECT MAX(UnitPrice) FROM Products);
 UNION 
 (SELECT ProductName, UnitPrice FROM Products ORDER BY UnitPrice DESC LIMIT 1);
 
+-- opcion 3
+(SELECT ProductName, UnitPrice as min, null max FROM Products ORDER BY UnitPrice ASC LIMIT 1)
+UNION 
+(SELECT ProductName, null,UnitPrice max  FROM Products ORDER BY UnitPrice DESC LIMIT 1);
 
 -- Querys escritas en la clase sobre la ppt
 Create Database  `nombre-DeMi_NuevaBase`;

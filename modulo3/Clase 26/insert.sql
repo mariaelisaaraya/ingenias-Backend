@@ -2,11 +2,11 @@
 /*
 El modelo de tablas que has creado se encuentra en la Tercera Forma Normal (3NF).
 La Tercera Forma Normal (3NF) se cumple cuando se cumplen las siguientes condiciones:
-La tabla está en Segunda Forma Normal (2NF).
+    - La tabla está en Segunda Forma Normal (2NF).
     - No existen dependencias transitivas en la tabla.
     - En tu modelo de tablas, cada tabla tiene su clave primaria correctamente definida 
     y no existen dependencias transitivas entre los campos. 
-    Por lo tanto, cumple con la Tercera Forma Normal (3NF).
+Por lo tanto, cumple con la Tercera Forma Normal (3NF).
 */
 -- Para la tabla Profesores:
 INSERT INTO Profesores (nombreCompleto, materia, fechaContratacion, telefono) 
