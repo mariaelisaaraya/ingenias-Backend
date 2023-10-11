@@ -93,13 +93,17 @@ Durante el curso usaremos Node.js para ejecutar los programas en el terminal. Pa
 ## 🔸 Descargar el Código
 Se puede descargar el código de cada parte del curso desde este repositorio. 
 
-## 🔹  Entrega:[EntregaDelTrabajo](https://forms.gle/C6CWo5dvnAHr4Rx8A) 
+## 🔹  Entrega:
 
-Durante el transcurso del curso, estaremos trabajando en GitHub, donde tanto la profesora como la tutora estarán siguiendo de cerca el progreso de los proyectos. Es importante tener en cuenta que para la Entrega Final, se aplicará el siguiente plazo:
+**Seguimos trabajando con GitHub.** Es importante tener en cuenta que para la Entrega 3 necesitamos que entreguen:
 
-  *  Pre Entrega 2: Se debe completar el fomulario antes **8 am del domingo 24/09**. A esa hora, se tomará una instantánea del proyecto en GitHub para su evaluación. Lo debe entregar una sola persona del grupo.
+- `tablas.sql` -> CREATE DATABASE / TABLE
+- `insert.sql` -> INSERT INTO, VALUES, etc
+- `readme.md` -> Explicación de la base de datos
 
-Por favor, hay que asegurarse de que cualquier cambio necesario en su proyecto esté reflejado en GitHub antes de ese momento. Se les comparte un link de forms para realizar la entrega a través del Campus.
+Se debe entregar en el [a confirmar]
+
+La fecha de entrega es la clase 30 -> 19/10 a las 18hs.
    
 
 ## 🔸 Enlace al Curso
