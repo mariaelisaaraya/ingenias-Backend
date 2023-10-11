@@ -2,7 +2,7 @@ CREATE database agenda;
 USE agenda;
 
 CREATE TABLE CONTACTOS (
-	Id 				INTEGER PRIMARY KEY auto_increment,
+	Id 			INTEGER PRIMARY KEY auto_increment,
 	nombreCompleto 	VARCHAR(70),
 	Email 			VARCHAR(50),
 	Telefono 		VARCHAR(22) NOT NULL,
