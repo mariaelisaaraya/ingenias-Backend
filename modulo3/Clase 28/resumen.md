@@ -1,0 +1,4 @@
+# Qué ejemplo de estructura de negocios podría ser para Mongo y cuál para SQL?
+Un ejemplo de estructura de negocio para Mongo podría ser una empresa de análisis de datos en tiempo real. Mongo es una base de datos NoSQL que se adapta muy bien a entornos en los que se necesitan realizar consultas y análisis de datos en tiempo real, como por ejemplo en aplicaciones de seguimiento de ventas, análisis de redes sociales o monitoreo de sistemas.
+
+Por otro lado, un ejemplo de estructura de negocio para SQL podría ser una agencia de desarrollo de software. SQL es un lenguaje de consulta estructurado que se utiliza ampliamente en la gestión de bases de datos relacionales. Una agencia de desarrollo de software podría utilizar SQL para crear y gestionar bases de datos relacionales que almacenen información sobre los productos o servicios que ofrecen, así como para realizar consultas y generar informes sobre los datos almacenados.

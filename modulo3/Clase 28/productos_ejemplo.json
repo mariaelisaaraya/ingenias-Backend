@@ -1,0 +1,242 @@
+[
+    {
+      "idProducto": 1,
+      "titulo": "Notebook XYZ",
+      "nombreProducto": "Notebook XYZ",
+      "idCategoria": 101,
+      "stockEnSucursal": 10,
+      "videoDemoURL": "https://www.youtube.com/embed/abcdefg"
+    },
+    {
+      "idProducto": 2,
+      "titulo": "Smartphone ABC",
+      "nombreProducto": "Smartphone ABC",
+      "idCategoria": 102,
+      "stockEnSucursal": 5,
+      "videoDemoURL": "https://www.youtube.com/embed/hijklmn"
+    },
+    {
+      "idProducto": 3,
+      "titulo": "Tablet PQR",
+      "nombreProducto": "Tablet PQR",
+      "idCategoria": 103,
+      "stockEnSucursal": 8,
+      "videoDemoURL": "https://www.youtube.com/embed/opqrstu"
+    },
+    {
+      "idProducto": 4,
+      "titulo": "Smartwatch MNO",
+      "nombreProducto": "Smartwatch MNO",
+      "idCategoria": 104,
+      "stockEnSucursal": 3,
+      "videoDemoURL": "https://www.youtube.com/embed/vwxyz12"
+    },
+    {
+      "idProducto": 5,
+      "titulo": "SmartTV UVW",
+      "nombreProducto": "SmartTV UVW",
+      "idCategoria": 105,
+      "stockEnSucursal": 12,
+      "videoDemoURL": "https://www.youtube.com/embed/3456789"
+    },
+    {
+      "idProducto": 6,
+      "titulo": "Monitor EFG",
+      "nombreProducto": "Monitor EFG",
+      "idCategoria": 106,
+      "stockEnSucursal": 7,
+      "videoDemoURL": "https://www.youtube.com/embed/ijklmno1"
+    },
+    {
+      "idProducto": 7,
+      "titulo": "Accesorio XYZ",
+      "nombreProducto": "Accesorio XYZ",
+      "idCategoria": 107,
+      "stockEnSucursal": 15,
+      "videoDemoURL": "https://www.youtube.com/embed/pqrstuv2"
+    },
+    {
+      "idProducto": 8,
+      "titulo": "Notebook ABC",
+      "nombreProducto": "Notebook ABC",
+      "idCategoria": 101,
+      "stockEnSucursal": 7,
+      "videoDemoURL": "https://www.youtube.com/embed/abcdefg"
+    },
+    {
+      "idProducto": 9,
+      "titulo": "Smartphone XYZ",
+      "nombreProducto": "Smartphone XYZ",
+      "idCategoria": 102,
+      "stockEnSucursal": 12,
+      "videoDemoURL": "https://www.youtube.com/embed/hijklmn"
+    },
+    {
+      "idProducto": 10,
+      "titulo": "Tablet PQR",
+      "nombreProducto": "Tablet PQR",
+      "idCategoria": 103,
+      "stockEnSucursal": 4,
+      "videoDemoURL": "https://www.youtube.com/embed/opqrstu"
+    },
+    {
+      "idProducto": 11,
+      "titulo": "Smartwatch ABC",
+      "nombreProducto": "Smartwatch ABC",
+      "idCategoria": 104,
+      "stockEnSucursal": 9,
+      "videoDemoURL": "https://www.youtube.com/embed/vwxyz12"
+    },
+    {
+      "idProducto": 12,
+      "titulo": "SmartTV XYZ",
+      "nombreProducto": "SmartTV XYZ",
+      "idCategoria": 105,
+      "stockEnSucursal": 6,
+      "videoDemoURL": "https://www.youtube.com/embed/3456789"
+    },
+    {
+      "idProducto": 13,
+      "titulo": "Monitor PQR",
+      "nombreProducto": "Monitor PQR",
+      "idCategoria": 106,
+      "stockEnSucursal": 11,
+      "videoDemoURL": "https://www.youtube.com/embed/ijklmno1"
+    },
+    {
+      "idProducto": 14,
+      "titulo": "Accesorio ABC",
+      "nombreProducto": "Accesorio ABC",
+      "idCategoria": 107,
+      "stockEnSucursal": 3,
+      "videoDemoURL": "https://www.youtube.com/embed/pqrstuv2"
+    },
+    {
+      "idProducto": 15,
+      "titulo": "Notebook XYZ",
+      "nombreProducto": "Notebook XYZ",
+      "idCategoria": 101,
+      "stockEnSucursal": 8,
+      "videoDemoURL": "https://www.youtube.com/embed/abcdefg"
+    },
+    {
+      "idProducto": 16,
+      "titulo": "Smartphone ABC",
+      "nombreProducto": "Smartphone ABC",
+      "idCategoria": 102,
+      "stockEnSucursal": 5,
+      "videoDemoURL": "https://www.youtube.com/embed/hijklmn"
+    },
+    {
+      "idProducto": 17,
+      "titulo": "Tablet PQR",
+      "nombreProducto": "Tablet PQR",
+      "idCategoria": 103,
+      "stockEnSucursal": 10,
+      "videoDemoURL": "https://www.youtube.com/embed/opqrstu"
+    },
+    {
+      "idProducto": 18,
+      "titulo": "Smartwatch XYZ",
+      "nombreProducto": "Smartwatch XYZ",
+      "idCategoria": 104,
+      "stockEnSucursal": 2,
+      "videoDemoURL": "https://www.youtube.com/embed/vwxyz12"
+    },
+    {
+      "idProducto": 19,
+      "titulo": "SmartTV ABC",
+      "nombreProducto": "SmartTV ABC",
+      "idCategoria": 105,
+      "stockEnSucursal": 15,
+      "videoDemoURL": "https://www.youtube.com/embed/3456789"
+    },
+    {
+      "idProducto": 20,
+      "titulo": "Monitor XYZ",
+      "nombreProducto": "Monitor XYZ",
+      "idCategoria": 106,
+      "stockEnSucursal": 6,
+      "videoDemoURL": "https://www.youtube.com/embed/ijklmno1"
+    },
+    {
+      "idProducto": 21,
+      "titulo": "Accesorio PQR",
+      "nombreProducto": "Accesorio PQR",
+      "idCategoria": 107,
+      "stockEnSucursal": 13,
+      "videoDemoURL": "https://www.youtube.com/embed/pqrstuv2"
+    },
+    {
+      "idProducto": 22,
+      "titulo": "Notebook MNO",
+      "nombreProducto": "Notebook MNO",
+      "idCategoria": 101,
+      "stockEnSucursal": 7,
+      "videoDemoURL": "https://www.youtube.com/embed/abcdefg"
+    },
+    {
+      "idProducto": 23,
+      "titulo": "Smartphone UVW",
+      "nombreProducto": "Smartphone UVW",
+      "idCategoria": 102,
+      "stockEnSucursal": 9,
+      "videoDemoURL": "https://www.youtube.com/embed/hijklmn"
+    },
+    {
+      "idProducto": 24,
+      "titulo": "Tablet EFG",
+      "nombreProducto": "Tablet EFG",
+      "idCategoria": 103,
+      "stockEnSucursal": 5,
+      "videoDemoURL": "https://www.youtube.com/embed/opqrstu"
+    },
+    {
+      "idProducto": 25,
+      "titulo": "Smartwatch UVW",
+      "nombreProducto": "Smartwatch UVW",
+      "idCategoria": 104,
+      "stockEnSucursal": 4,
+      "videoDemoURL": "https://www.youtube.com/embed/vwxyz12"
+    },
+    {
+      "idProducto": 26,
+      "titulo": "SmartTV MNO",
+      "nombreProducto": "SmartTV MNO",
+      "idCategoria": 105,
+      "stockEnSucursal": 6,
+      "videoDemoURL": "https://www.youtube.com/embed/3456789"
+    },
+    {
+      "idProducto": 27,
+      "titulo": "Monitor UVW",
+      "nombreProducto": "Monitor UVW",
+      "idCategoria": 106,
+      "stockEnSucursal": 11,
+      "videoDemoURL": "https://www.youtube.com/embed/ijklmno1"
+    },
+    {
+      "idProducto": 28,
+      "titulo": "Accesorio MNO",
+      "nombreProducto": "Accesorio MNO",
+      "idCategoria": 107,
+      "stockEnSucursal": 3,
+      "videoDemoURL": "https://www.youtube.com/embed/pqrstuv2"
+    },
+    {
+      "idProducto": 29,
+      "titulo": "Notebook UVW",
+      "nombreProducto": "Notebook UVW",
+      "idCategoria": 101,
+      "stockEnSucursal": 6,
+      "videoDemoURL": "https://www.youtube.com/embed/abcdefg"
+    },
+    {
+      "idProducto": 30,
+      "titulo": "Smartphone MNO",
+      "nombreProducto": "Smartphone MNO",
+      "idCategoria": 102,
+      "stockEnSucursal": 8,
+      "videoDemoURL": "https://www.youtube.com/embed/hijklmn"
+    }
+]
