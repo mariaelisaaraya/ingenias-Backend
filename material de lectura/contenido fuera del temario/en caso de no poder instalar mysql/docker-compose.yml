@@ -1,0 +1,45 @@
+# We're using version 3.7 of the Docker Compose file format
+version: "3.7"
+
+# Define services/containers
+services:
+  # MySQL container
+  mysql-server:
+    # Use mysql:8.0.19 image
+    image: mysql:8.0.19
+    restart: always
+    # Connect to "my-network" network, as defined below
+    networks:
+      - my-network
+    # Pass a list of environment variables to the container
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+    volumes:
+      - mysql-data:/var/lib/mysql
+    ports:
+      - "3307:3307"
+  # phpMyAdmin container 
+  phpmyadmin:
+   # Use phpmyadmin/phpmyadmin:5.0.2 image
+    image: phpmyadmin/phpmyadmin:5.0.2
+    restart: always
+    # Pass a list of environment variables to the container
+    environment:
+      PMA_HOST: mysql-server
+      PMA_USER: root
+      PMA_PASSWORD: secret
+    # Connect to "my-network" network, as defined below
+    networks:
+      - my-network
+    # Map port 8080 on the host to port 80 inside the container
+    # Syntax is: "HOST_PORT:CONTAINER_PORT"
+    ports:
+      - "8080:80"
+    # Wait for "mysql" container to start first
+    depends_on:
+      - mysql-server
+# Define networks
+networks:
+  my-network:
+volumes:
+  mysql-data:
