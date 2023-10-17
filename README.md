@@ -93,15 +93,13 @@ Durante el curso usaremos Node.js para ejecutar los programas en el terminal. Pa
 ## 🔸 Descargar el Código
 Se puede descargar el código de cada parte del curso desde este repositorio. 
 
-## 🔹  Entrega:
+## 🔹  Entrega: En este link adjunten el [Trabajo 3](https://forms.gle/TZ3NDCqZdHgVD2A97)
 
 **Seguimos trabajando con GitHub.** Es importante tener en cuenta que para la Entrega 3 necesitamos que entreguen:
 
 - `tablas.sql` -> CREATE DATABASE / TABLE
 - `insert.sql` -> INSERT INTO, VALUES, etc
 - `readme.md` -> Explicación de la base de datos
-
-Se debe entregar en el [a confirmar]
 
 La fecha de entrega es la clase 30 -> 19/10 a las 18hs.
    
