@@ -17,6 +17,7 @@ app.get('/', function (req, res) {
 
 app.use('/api/posts', require('./routes/posts'));
 app.use('/api/books', require('./routes/books'));
+
 // Arrancamos el servidor
 app.listen(PORT, function () {
     console.log(`La app ha arranado en http://localhost:${PORT}`);

@@ -6,7 +6,7 @@ const sequelize = new Sequelize(
     database.username,
     database.password, {
         host: database.host,
-        dialect: "mysql"
+        dialect: database.dialect
     }
 );
 
@@ -16,4 +16,5 @@ sequelize.authenticate().then(() => {
 }).catch((error) => {
    console.error('Unable to connect to the database: ', error);
 });
+
 module.exports = sequelize;
