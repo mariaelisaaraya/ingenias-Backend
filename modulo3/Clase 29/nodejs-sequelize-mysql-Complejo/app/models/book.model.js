@@ -18,21 +18,21 @@ module.exports = (sequelize, Sequelize, DataTypes) => {
       published: {
         type: DataTypes.BOOLEAN
       },
-      created_at: {
-        allowNull: false,
-        type: DataTypes.DATE
-      },
-      updated_at: {
-        allowNull: false,
-        type: DataTypes.DATE
-      }
+      // created_at: {
+      //   allowNull: false,
+      //   type: DataTypes.DATE
+      // },
+      // updated_at: {
+      //   allowNull: false,
+      //   type: DataTypes.DATE
+      // }
     },
     {
       // Options
       timestamps: true,
       underscrored: true,
-      createdAt: "created_at",
-      updatedAt: "updated_at"
+      // createdAt: "created_at",
+      // updatedAt: "updated_at"
     }
   );
 

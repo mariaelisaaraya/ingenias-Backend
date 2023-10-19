@@ -157,7 +157,7 @@ module.exports = {
 ```
 Los primeros cinco parámetros están destinados principalmente a MySQL. El parámetro pool es opcional y se implementará en la configuración del pool de conexión de secuelas. Los parámetros utilizados se explican a continuación:
 
-- Max - número máximo de conexiones permitidas en una piscina
-- Min - número mínimo de conexiones permitidas en una piscina
+- Max - número máximo de conexiones permitidas en una base
+- Min - número mínimo de conexiones permitidas en una base
 - Idle  - tiempo máximo en milisegundos que puede mantenerse inactivo antes del lanzamiento
 - Acquire - tiempo máximo en milisegundos que el grupo busca para hacer la conexión, justo antes de que aparezca un mensaje de error
