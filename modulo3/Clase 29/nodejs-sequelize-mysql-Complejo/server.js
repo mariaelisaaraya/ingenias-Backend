@@ -40,20 +40,33 @@ app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
 
-// Just use it in development, at the first time execution!. Delete it in production
-function initial() {
-  Role.create({
+
+roles = [{
     id: 1,
     name: "user"
-  });
-
-  Role.create({
+}, {
     id: 2,
     name: "moderator"
-  });
-
-  Role.create({
+}, {
     id: 3,
     name: "admin"
-  });
+}]
+// Just use it in development, at the first time execution!. Delete it in production
+function initial() {
+  roles.forEach(rol => {
+    console.log("==========>",rol)
+    Role.findOrCreate({
+      where: {id: rol.id},
+      defaults: {
+            id: rol.id,
+            name: rol.name,
+      }
+    }).then((rolRow, isCreated) => {
+    if(isCreated){
+          //user created
+          console.log('creted rol', rolRow);
+      }
+    });
+  })
+
 }
