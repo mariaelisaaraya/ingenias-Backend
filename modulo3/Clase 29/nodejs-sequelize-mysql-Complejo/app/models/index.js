@@ -7,15 +7,8 @@ const sequelize = new Sequelize(
   config.db.DB_PASS,
   {
     host: config.db.DB_HOST,
+    port: config.db.DB_PORT,
     dialect: config.db.dialect,
-    operatorsAliases: false,
-
-    // poll: {
-    //   max: config.db.pool.max,
-    //   min: config.db.pool.min,
-    //   acquire: config.db.pool.acquire,
-    //   idle: config.db.pool.idle
-    // }
   }
 );
 
