@@ -36,3 +36,12 @@ es decir buscamos agregar nuestro proyecto
 ## 7) Ver los para verificar si deployamos
 ![Alt text](image-10.png)
 ![Alt text](image-9.png)
+
+Probar con sus proyectos
+https://github.com/jeanmunoz23/nodejs-mysql-sequelize-login - Deployado en https://nodejs-mysql-sequelize-login-production.up.railway.app/
+
+https://github.com/jeanmunoz23/nodejs-mysql-login-railway
+
+https://github.com/jeanmunoz23/nodejs-mysql-sequelize
+
+https://github.com/jeanmunoz23/nodejs-mysql-sequelize-railway - Deployado en https://literate-prose-production.up.railway.app/
