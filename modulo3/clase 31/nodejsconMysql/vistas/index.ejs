@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+	<!--    <h1>Hola mundo desde ejs</h1> -->
+    <h1>Formulario Pelicula</h1>
+    <form action="/crud_c" method="post">
+        <input type="text" id="txt_id" name="txt_id" placeholder="0">
+        <input type="text" id="txt_titulo" name="txt_titulo" placeholder="Titulo">
+        <input type="text" id="txt_resumen" name="txt_resumen" placeholder="Resumen">
+        <input type="text" id="txt_categoria_id" name="txt_categoria_id" placeholder="Categoria">
+        <input type="text" id="txt_genero" name="txt_genero" placeholder="Genero">
+       <button type="submit" id="btn_crear" name="btn_crear" value="crear">Crear</button>
+       <button type="submit" id="btn_actualizar" name="btn_actualizar" value="actializar">Actualizar</button>
+       <button type="submit" id="btn_borrar" name="btn_borrar" value="borrar">Borrar</button>
+    </form>
+    <table class="table" border="1px">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>titulo</th>
+                <th>resumen</th>
+                <th>categoria</th>
+                <th>genero</th>
+            </tr>
+        </thead>
+        <tbody>
+           <% resultado.forEach((peliculas) => { %>
+
+           
+            <tr>
+                <td><%= peliculas.pelicula_id %></td>
+                <td><%= peliculas.titulo %></td>
+                <td><%= peliculas.resumen %></td>
+                <td><%= peliculas.categoria %></td>
+                <td><%= peliculas.genero %></td>
+        
+            </tr>
+            <% }) %>
+        </tbody>
+      </table>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <h1>Catálogo de Películas y Series</h1>
+  <ul>
+    <% catalogo.forEach(item => { %>
+      <li>
+        <strong><%= item.titulo %></strong> - <%= item.categoria %>
+      </li>  
+
+     
+  
+    <% }); %>
+  </ul>
+    <!-- Botón para ir al catálogo -->
+    <a href="/inicio">
+        <button>Ir a inicio</button>
+    </a>
+</body>
+
+</html>
+

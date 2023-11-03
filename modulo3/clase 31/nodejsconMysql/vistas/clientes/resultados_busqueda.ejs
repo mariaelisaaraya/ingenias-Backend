@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <h1>Resultados de la búsqueda: <%= query %></h1>
+    
+    <!-- Mostrar los resultados de la búsqueda -->
+    <% resultados.forEach(item => { %>
+        <p><%= item.titulo %> - <%= item.categoria %></p>
+    <% }); %>
+
+    <!-- Incluye el footer -->
+    <%- include('footer') %>
+</body>
+</html>
+
+

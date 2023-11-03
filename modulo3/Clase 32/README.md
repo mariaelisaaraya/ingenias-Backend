@@ -40,8 +40,8 @@ es decir buscamos agregar nuestro proyecto
 Probar con sus proyectos
 https://github.com/jeanmunoz23/nodejs-mysql-sequelize-login - Deployado en https://nodejs-mysql-sequelize-login-production.up.railway.app/
 
-https://github.com/jeanmunoz23/nodejs-mysql-login-railway
+https://github.com/jeanmunoz23/nodejs-mysql-login-railway - Deployado en https://nodejs-mysql-login-railway-production.up.railway.app/
 
-https://github.com/jeanmunoz23/nodejs-mysql-sequelize
+https://github.com/jeanmunoz23/nodejs-mysql-sequelize 
 
 https://github.com/jeanmunoz23/nodejs-mysql-sequelize-railway - Deployado en https://literate-prose-production.up.railway.app/

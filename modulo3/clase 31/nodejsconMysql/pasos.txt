@@ -1,0 +1,69 @@
+https://nodejs.org/es/download/
+https://expressjs.com/es/
+https://www.npmjs.com/
+https://ejs.co/
+
+1)npm init -y
+2)npm install express 
+3)npm install nodemon
+4)npm install ejs ó npm install pug
+5)npm install mysql 
+6) crear index.js (ver main en el package.json) 
+7) en package.json abajo de "main": "index.js",  crear  "type": "module",
+8)  en package.json dentro de "scripts" crear  ,"dev"  : "nodemon index.js" 
+9) dentro de archivo index.js declarar
+	9.1) import express  from "express"
+	9.2) const app_e = express()
+	9.3)app_e.listen('5000',function(){
+    console.log('Aplicacion Iniciada : http://localhost:5000/')
+})
+
+10)  npm run dev
+11) crear un hola mundo dentro de index.js
+	app_e.get('/',function(req,res){
+    				res.send("Hola mundo")
+						})
+12) crear carpeta vistas y controlador
+13) configurar los directorios estaticos
+	app_e.use(express.static('./vistas'))
+	app_e.use(express.static('./controlador'))
+
+14) congigurar el motor de vistas
+	app_e.set('views','./vistas')
+	app_e.set('view engine','ejs')
+15) crear  vistas/clientes/index.ejs
+16) en el app_e.get (paso 11) crear
+	res.render("clientes/index")
+17) conectar con mysql crear archivo db_conectar.js en la carpeta modelo
+	//https://www.npmjs.com/package/mysql
+	import mysql from 'mysql' // o tambien const mysql = require('mysql');
+	var conectar = mysql.createConnection({
+    		host     : 'localhost',
+    		user     : 'root',
+    		password : 'Admin@123',
+    		database : 'dbempresa'
+  	});
+
+  	conectar.connect(function(err) {
+    		if (err) {
+      			console.error('Error en la conexion: ' + err.stack);
+      	return;
+    	}
+   
+    			console.log('conexion exitosa ID: ' + conectar.threadId);
+  	});
+
+  	export {conectar}
+18) de ahi en index.js
+	import { conectar } from "./modelo/db_conectar.js"
+19) al correr deberia de mostrar solito el mensaje de conexcion exitos ID:
+20) hacer la funcion para consultar dentro de app_e.get
+  	 conectar.query('Select * from clientes;',(error,results)=>{
+    		if (error){
+        		throw error;
+
+    	}else{
+        res.render('clientes/index',{resultado:results})
+    	}
+	})
+21) hacer el codigo en el index.ejs
