@@ -1,4 +1,4 @@
-# Curso de Backend - Aula Kimberly Bryant
+# Curso de Backend 2023 - Aula Kimberly Bryant
 
 ¡Bienvenidas! 👋 Este repositorio contiene el código del curso de Curso de Backend - Aula Kimberly Bryant creado para Ingenias por Maria Elisa Araya y Jeannette Elizabeth Muñoz .
 
